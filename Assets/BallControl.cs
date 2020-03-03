@@ -10,7 +10,7 @@ public class BallControl : MonoBehaviour
     float startMomentum = .1f;
 
     //Directions for which direction the player is moving
-    bool left, right, forward, backward;
+    public bool left, right, forward, backward;
 
     //Rigidbody attached to the player
    Rigidbody rb;
